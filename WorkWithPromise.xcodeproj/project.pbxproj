@@ -12,9 +12,14 @@
 		75257AAA1F3353D50072ADA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75257AA81F3353D50072ADA4 /* Main.storyboard */; };
 		75257AAC1F3353D50072ADA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75257AAB1F3353D50072ADA4 /* Assets.xcassets */; };
 		75257AAF1F3353D50072ADA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75257AAD1F3353D50072ADA4 /* LaunchScreen.storyboard */; };
+		75257AB71F3357220072ADA4 /* Pods_WorkWithPromise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75257AB61F3357220072ADA4 /* Pods_WorkWithPromise.framework */; };
+		75257AB91F3357240072ADA4 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75257AB81F3357240072ADA4 /* PromiseKit.framework */; };
+		9C7B1B8B180D791F41BDD80B /* Pods_WorkWithPromise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F42FDD5DBE108DFF512D0EA /* Pods_WorkWithPromise.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F42FDD5DBE108DFF512D0EA /* Pods_WorkWithPromise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkWithPromise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBC3E63ADC1F76A2C009351 /* Pods-WorkWithPromise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkWithPromise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkWithPromise/Pods-WorkWithPromise.debug.xcconfig"; sourceTree = "<group>"; };
 		75257AA11F3353D50072ADA4 /* WorkWithPromise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkWithPromise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75257AA41F3353D50072ADA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75257AA61F3353D50072ADA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		75257AAB1F3353D50072ADA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75257AAE1F3353D50072ADA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75257AB01F3353D50072ADA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75257AB61F3357220072ADA4 /* Pods_WorkWithPromise.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_WorkWithPromise.framework; path = "Pods/../build/Debug-iphoneos/Pods_WorkWithPromise.framework"; sourceTree = "<group>"; };
+		75257AB81F3357240072ADA4 /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = "../../Library/Developer/Xcode/DerivedData/WorkWithPromise-blagqtpdonzgpafzwkhvdjysiqhs/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework"; sourceTree = "<group>"; };
+		BCE96E52A7E130CA04B6AF65 /* Pods-WorkWithPromise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkWithPromise.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkWithPromise/Pods-WorkWithPromise.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C7B1B8B180D791F41BDD80B /* Pods_WorkWithPromise.framework in Frameworks */,
+				75257AB71F3357220072ADA4 /* Pods_WorkWithPromise.framework in Frameworks */,
+				75257AB91F3357240072ADA4 /* PromiseKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				75257AA31F3353D50072ADA4 /* WorkWithPromise */,
 				75257AA21F3353D50072ADA4 /* Products */,
+				F214B74BA3323BF37A2D2995 /* Pods */,
+				EC42FC56F0161607A12D59C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +77,25 @@
 			path = WorkWithPromise;
 			sourceTree = "<group>";
 		};
+		EC42FC56F0161607A12D59C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75257AB81F3357240072ADA4 /* PromiseKit.framework */,
+				75257AB61F3357220072ADA4 /* Pods_WorkWithPromise.framework */,
+				3F42FDD5DBE108DFF512D0EA /* Pods_WorkWithPromise.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F214B74BA3323BF37A2D2995 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DBC3E63ADC1F76A2C009351 /* Pods-WorkWithPromise.debug.xcconfig */,
+				BCE96E52A7E130CA04B6AF65 /* Pods-WorkWithPromise.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +103,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75257AB31F3353D50072ADA4 /* Build configuration list for PBXNativeTarget "WorkWithPromise" */;
 			buildPhases = (
+				58E8E72F86ED5266CFA678E4 /* [CP] Check Pods Manifest.lock */,
 				75257A9D1F3353D50072ADA4 /* Sources */,
 				75257A9E1F3353D50072ADA4 /* Frameworks */,
 				75257A9F1F3353D50072ADA4 /* Resources */,
+				D87D720EEE893C50D8EE9FF5 /* [CP] Embed Pods Frameworks */,
+				4769983E99800FB2C2B480D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +165,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4769983E99800FB2C2B480D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkWithPromise/Pods-WorkWithPromise-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58E8E72F86ED5266CFA678E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D87D720EEE893C50D8EE9FF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkWithPromise/Pods-WorkWithPromise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		75257A9D1F3353D50072ADA4 /* Sources */ = {
@@ -260,8 +343,13 @@
 		};
 		75257AB41F3353D50072ADA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DBC3E63ADC1F76A2C009351 /* Pods-WorkWithPromise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = WorkWithPromise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.WorkWithPromise";
@@ -272,8 +360,13 @@
 		};
 		75257AB51F3353D50072ADA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE96E52A7E130CA04B6AF65 /* Pods-WorkWithPromise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = WorkWithPromise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.WorkWithPromise";
@@ -301,6 +394,7 @@
 				75257AB51F3353D50072ADA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

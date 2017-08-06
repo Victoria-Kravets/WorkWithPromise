@@ -1,0 +1,6 @@
+framework module Pods_WorkWithPromise {
+  umbrella header "Pods-WorkWithPromise-umbrella.h"
+
+  export *
+  module * { export * }
+}
