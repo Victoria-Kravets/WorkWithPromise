@@ -14,6 +14,8 @@
 		75257AAF1F3353D50072ADA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75257AAD1F3353D50072ADA4 /* LaunchScreen.storyboard */; };
 		75257AB71F3357220072ADA4 /* Pods_WorkWithPromise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75257AB61F3357220072ADA4 /* Pods_WorkWithPromise.framework */; };
 		75257AB91F3357240072ADA4 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75257AB81F3357240072ADA4 /* PromiseKit.framework */; };
+		7584C1DE1F38873B00305B77 /* UsingPromiseWithPromisKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7584C1DD1F38873B00305B77 /* UsingPromiseWithPromisKit.swift */; };
+		7584C1E01F38876700305B77 /* UsingPromiseWithBlueBird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7584C1DF1F38876700305B77 /* UsingPromiseWithBlueBird.swift */; };
 		9C7B1B8B180D791F41BDD80B /* Pods_WorkWithPromise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F42FDD5DBE108DFF512D0EA /* Pods_WorkWithPromise.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,8 @@
 		75257AB01F3353D50072ADA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75257AB61F3357220072ADA4 /* Pods_WorkWithPromise.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_WorkWithPromise.framework; path = "Pods/../build/Debug-iphoneos/Pods_WorkWithPromise.framework"; sourceTree = "<group>"; };
 		75257AB81F3357240072ADA4 /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = "../../Library/Developer/Xcode/DerivedData/WorkWithPromise-blagqtpdonzgpafzwkhvdjysiqhs/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework"; sourceTree = "<group>"; };
+		7584C1DD1F38873B00305B77 /* UsingPromiseWithPromisKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsingPromiseWithPromisKit.swift; sourceTree = "<group>"; };
+		7584C1DF1F38876700305B77 /* UsingPromiseWithBlueBird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsingPromiseWithBlueBird.swift; sourceTree = "<group>"; };
 		BCE96E52A7E130CA04B6AF65 /* Pods-WorkWithPromise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkWithPromise.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkWithPromise/Pods-WorkWithPromise.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +77,8 @@
 				75257AAB1F3353D50072ADA4 /* Assets.xcassets */,
 				75257AAD1F3353D50072ADA4 /* LaunchScreen.storyboard */,
 				75257AB01F3353D50072ADA4 /* Info.plist */,
+				7584C1DD1F38873B00305B77 /* UsingPromiseWithPromisKit.swift */,
+				7584C1DF1F38876700305B77 /* UsingPromiseWithBlueBird.swift */,
 			);
 			path = WorkWithPromise;
 			sourceTree = "<group>";
@@ -221,6 +227,8 @@
 			files = (
 				75257AA71F3353D50072ADA4 /* ViewController.swift in Sources */,
 				75257AA51F3353D50072ADA4 /* AppDelegate.swift in Sources */,
+				7584C1DE1F38873B00305B77 /* UsingPromiseWithPromisKit.swift in Sources */,
+				7584C1E01F38876700305B77 /* UsingPromiseWithBlueBird.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

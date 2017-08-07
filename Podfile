@@ -10,5 +10,4 @@ swift_version = "3.0"
 pod "PromiseKit", "~> 4.0"
 pod "Alamofire", "~> 4.4"
 pod 'Bluebird', '~> 1.10'
-pod "Promise"
 end
